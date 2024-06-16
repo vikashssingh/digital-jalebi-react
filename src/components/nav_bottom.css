@@ -1,0 +1,61 @@
+.menulist {
+    list-style: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+ul .menulist:hover {
+    color: #d2a564;
+}
+
+.listItem {
+    position: absolute;
+    /* top: 100%; */
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease-in-out;
+ /* Ensure background is white */
+    z-index: 1000; /* Make sure it's on top */
+}
+
+.menulist:hover .listItem {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.mmmlist {
+    justify-content: space-between;
+    width: 100%;
+    flex-basis: 100%;
+    height: auto;
+    margin-top: 25px;
+    align-items: center;
+    padding: 10px 20px;
+    color: #000;
+    background: #fff;
+}
+.coll{
+    flex-basis: 25%;
+}
+
+.list---item {
+    list-style: none;
+}
+
+.list__ {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.list__ li {
+    padding: 10px 20px; /* Add some padding for better appearance */ 
+}
+
+.list__ li:hover {
+    background: #f8f8f8; /* Optional: add a hover effect for list items */
+}

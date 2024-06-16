@@ -1,0 +1,40 @@
+.top-nav{
+    background: #081c3f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 40px;
+}
+.navv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    height: 35px ;
+    width: 250px;
+
+}
+.form-group{
+    justify-content: center;
+    align-items: center;
+    width: 421px;
+    height: 44px;
+    background: #fff;
+    border-radius: 20px;
+}
+.form-group input{
+    background: none;
+    outline: none;
+    border: none;
+    color: #ECECEC;
+}
+.form-group input:focus{
+    background: none !important;
+    outline: none !important;
+    border: none !important;
+    transition: none !important;
+    box-shadow: none;
+
+}
